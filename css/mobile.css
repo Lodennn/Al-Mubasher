@@ -1,0 +1,97 @@
+/* Mobile Design */
+body
+{
+    direction: rtl;
+    text-align: right;
+    margin-top: 80px
+}
+.container
+{
+    max-width: 768px !important;
+    
+}
+h1,h2,h4,h5,h6
+{
+    font-family: 'Reem Kufi', sans-serif;
+}
+p,h3,a
+{
+    font-family: 'Cairo', sans-serif;
+}
+/* Mobile navigation */
+
+.mobnavbar
+{
+    background: #8037ad;
+    padding: 10px;
+    overflow: hidden
+}
+.navbar-light .navbar-brand {
+    color: #FFF;
+    font-size: .9rem;
+    background: #6e3194;
+    padding: 10px 3px;
+    border-radius: 12px;
+    margin-right: .1rem;
+}
+.navbar-light .navbar-brand:hover
+{
+    color: #F5F5F5
+}
+.mobnavbar button
+{
+    float: left
+}
+.mobnavbar button:focus{outline: none;cursor: pointer}
+.mobnavbar ul
+{
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 20px
+}
+.mobnavbar ul li,
+.mobnavbar ul .custom
+{
+    margin-bottom: 5px;
+    padding: 10px 0;
+    border-radius: 10px
+}
+.mobnavbar ul li
+{
+    background: #9941d0;
+}
+.mobnavbar ul .custom
+{
+    background: #FFF
+}
+.mobnavbar ul .custom a{color: #000}
+.mobnavbar ul li a
+{
+    color: #FFF
+}
+.mobnavbar ul li a:hover
+{
+    text-decoration: none
+}
+@media (min-width: 769px)
+{
+    .mobnavbar .navbar-nav
+    {
+        display: none
+    }
+}
+.fixed-top
+{
+    position: fixed;
+    width: 100%
+}
+/* Mobile navigation */
+
+/* mabout File */
+.about
+{
+    padding: 50px 0
+}
+/* mabout File */
+
+/* Mobile Design */
